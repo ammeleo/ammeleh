@@ -3,10 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>esercizio DOM</title>
-
-  <!-- JavaScript nell'header -->
   <script>
-    function cambiaColore() {
+    function cambiaColoreAzzurro() {
       document.body.style.backgroundColor = "lightblue";
     }
   </script>
@@ -14,13 +12,18 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
-<body onload="alert('benvenuto nella pagina!')">
+<body onload="alert('benvenuto amico!')">
 
-  <h1 id="titolo">DOM</h1>
-  <p id="descrizione">Questa pagina mostra il tony boy</p>
+  <h1 id="titolo">TONY BOY</h1>
+  <p id="descrizione">questa pagina mostra tony boy</p>
 
-  <!-- Inline event -->
-  <button onclick="cambiaColore()">Cambia colore sfondo</button>
+  <button onclick="cambiaColoreAzzurro()">cambia il colore dello sfondo (azzurro)</button>
+  <button onclick="cambiaColoreVerde()">cambia il colore dello sfondo (verde)</button>
+  <script>
+    function cambiaColoreVerde() {
+      document.body.style.backgroundColor = "lightgreen";
+    }
+  </script>
 
   <button id="btnTesto">Cambia testo titolo</button>
   <input id="inputNome" placeholder="scrivi il tuo nome">
@@ -28,7 +31,32 @@
 
   <p id="output"></p>
 
-  <img id="immagine" src="https://d2fa23zcjd5klo.cloudfront.net/square/performer/6a62dbf3-c06a-4c9e-b36c-f774f64d11b5.jpg" alt="Immagine esempio">
+  <img id="immagine" src="https://d2fa23zcjd5klo.cloudfront.net/square/performer/6a62dbf3-c06a-4c9e-b36c-f774f64d11b5.jpg">
+  <img id="immagine" src="https://i.pinimg.com/1200x/71/95/69/71956951225af38d549053731eca236e.jpg">
+
+  <h1 id="titolo">descrizione del cantante</h1>
+  <p id="descrizione">qua sotto ci sarà una piccola descrizione riguardante tony boy</p>
+
+  <p id="testo">"Tony Boy, nome d'arte di Antonio Hueber, è un rapper italiano nato a Padova nel 1999. È considerato una delle voci più rappresentative della nuova generazione del rap italiano, grazie al suo stile personale che unisce trap, rap melodico ed emo rap, con testi introspettivi e sonorità moderne.
+
+  Ha iniziato a farsi notare nella scena underground attorno al 2018, ma il successo vero è arrivato con la serie di progetti “Going Hard”, pubblicati tra il 2020 e il 2024. Il suo primo grande riconoscimento arriva però con l’album “Umile” (2023), dove collabora con artisti come Shiva, Artie 5ive e Kid Yugi.
+  
+  Nel 2024 pubblica “Going Hard 3” e il progetto “Nostalgia (export)”, che lo consacrano definitivamente, portandolo ai vertici delle classifiche italiane. Nel 2025 esce “Uforia”, un disco ricco di collaborazioni con nomi importanti come Guè, Lazza, Simba La Rue, Thasup, Astro e persino artisti internazionali come Nardo Wick.
+  
+  Oltre al successo discografico, Tony Boy si è distinto anche per le sue performance dal vivo e per la capacità di rappresentare una generazione di giovani artisti italiani che puntano sull’autenticità e sull’evoluzione del suono urban nazionale."</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>

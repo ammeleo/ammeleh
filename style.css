@@ -5,3 +5,7 @@ body {
 img{
   height: 500px;
 }
+text {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 10px;
+}
